@@ -1,0 +1,48 @@
+@media screen and (max-width: 991px) {
+    .videoMouton{
+        display: none;
+    }
+    .buttonNav{
+        display: none;
+    }
+
+    .network{
+        color: rgba(0, 0, 0, 0.55)!important;
+    }
+
+    .contactForm{
+        flex-wrap: wrap!important;
+    }
+
+    .areaForm{
+        width: 100% !important
+    }
+
+    #myBtn{
+        display: none!important;
+    }
+
+    .frenchFlag{
+        margin: 0!important;
+    }
+
+    .resForm{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .social{
+        display: none!important;
+    }
+
+    .resForm{
+        display: flex;
+        justify-content: center;
+    }
+
+    .alertRes{
+        display: none;
+    }
+}
