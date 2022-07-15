@@ -41,7 +41,7 @@
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center wow animate__animated animate__backInLeft">
                 <div class="col-xl-8 col-lg-7">
                     <div class="col-xl-8 col-lg-7">
-                        <img width="100%" src="./resources/assets/img/xyz/xyzMastHead.png" alt="XYZ index">
+                        <img width="100%" src="./resources/assets/img/xyz/xyzMasthead.png" alt="XYZ index">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5">
