@@ -244,7 +244,7 @@
             <div class="social d-flex justify-content-center">
                 <a target="_blank" class="mx-2" href="https://twitter.com/wTristaaan"><i class="fab fa-twitter"></i></a>
                 <a target="_blank" class="mx-2" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                <a target="_blank" class="mx-2" href="./resources/assets/img/CV_JOUBERT_Tristan.pdf"><i class="fas fa-info"></i></a>
+                <a target="_blank" class="mx-2" href="./resources/assets/img/CV_JOUBERT.pdf"><i class="fas fa-info"></i></a>
             </div>
         </div>
     </section>
