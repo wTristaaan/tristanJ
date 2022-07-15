@@ -15,8 +15,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link">À propos</a></li>
-                    <li class="nav-item"><a class="nav-link">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aPropos">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
                 </ul>
             </div>
         </div>
@@ -28,7 +28,7 @@
                     <h1 id="nameJOUBERT" class="writeJ mx-auto my-0 text-uppercase"></h1>
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s" src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("Coin Coin");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -178,12 +178,31 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-black">Bouger une div</h4>
-                                <p class="mb-0 text-black-50">Le but ici était de bouger une div dans une p age web comme une fenêtre sur n'importe quel OS.</p>
+                                <p class="mb-0 text-black-50">Le but ici était de bouger une div dans une page web comme une fenêtre sur n'importe quel OS.</p>
                                 <a class="text-black-50 mb-0" href="moveDiv.php">En savoir plus</a>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row gx-0 mb-4 mb-lg-0 justify-content-center wow animate__animated animate__backInRight">
+                <div class="col-lg-6">
+                    <div class="bg-white text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4>XYZ</h4>
+                                <p class="text-black-50 mb-0">Site web pour trouver n'importe quelle musique sur internet et l'écouter gratuitement.</p>
+                                <a class="text-black-50 mb-0" href="xyz.php">En savoir plus</a>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <video loop class="img-fluid videoMouton">
+                        <source src="./resources/assets/vid/xyzVid.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
@@ -224,7 +243,7 @@
             </div>
             <div class="social d-flex justify-content-center">
                 <a target="_blank" class="mx-2" href="https://twitter.com/wTristaaan"><i class="fab fa-twitter"></i></a>
-                <a target="_blank" class="mx-2" href="https://www.instagram.com/tristetempsj/"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" class="mx-2" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                 <a target="_blank" class="mx-2" href="./resources/assets/img/CV_JOUBERT_Tristan.pdf"><i class="fas fa-info"></i></a>
             </div>
         </div>

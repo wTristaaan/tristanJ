@@ -8,7 +8,7 @@
                     <h1 id="SP" class="writeJ mx-auto my-0 text-uppercase"></h1>
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s" src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("SuperCompatbles");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@ function listMajors() {
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Découverte de GoogleAppScript</h4>
                                 <p class="text-black-50 mb-0">Le coeur de l'application tourne autour de GoogleAppScript.</p>
-                                <a class="text-black-50 mb-0" href="https://fr.wikipedia.org/wiki/Google_Apps_Script">En savoir plus.</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="https://fr.wikipedia.org/wiki/Google_Apps_Script">En savoir plus.</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>

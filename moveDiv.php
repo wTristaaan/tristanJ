@@ -8,7 +8,7 @@
                     <h1 id="moveDiv" class="writeJ mx-auto my-0 text-uppercase"></h1>
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s" src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("Move a Div !");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
                     </div>
                     <p class="text-white-50 wow animate__animated animate__backInLeft">
                     Pour le portfolio d'une amie, je l'ai aidé à développer une fonction Javascript permettant de bouger une div comme n'importe quelle fenêtre d'un explorateur de fichier.
-                        <a target="_blank" href="http://lysun.fr/Portfolio">Sur cette page</a>
+                        <a target="_blank" href="http://lysun.fr/moveAdiv/">Sur cette page</a>
                         vous trouverez le site en ligne.
                     </p>
                 </div>
@@ -136,7 +136,7 @@ function newPosition(r) {
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4></h4>
                                 <p class="text-black-50 mb-0">Création d'un Github pour travailler en équipe.</p>
-                                <a href="https://github.com/wTristaaan/moveADiv.git">
+                                <a target="_blank" href="https://github.com/wTristaaan/moveADiv.git">
                                     <p class="mb-0 text-black-50">Ici.</p>
                                 </a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />

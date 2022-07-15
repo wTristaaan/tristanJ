@@ -8,7 +8,7 @@
                     <h1 id="mdv" class="writeJ mx-auto my-0 text-uppercase"></h1>
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s" src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("MDV");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Création d'une base de données avec Symfony.</h4>
                                 <p class="text-black-50 mb-0">Symfony est un framework PHP nécessitant une base de données pour fonctionner.</p>
-                                <a class="text-black-50 mb-0" href="https://symfony.com/doc/current/doctrine.html">En savoir plus</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="https://symfony.com/doc/current/doctrine.html">En savoir plus</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -692,7 +692,7 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator implements P
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4></h4>
                                 <p class="text-black-50 mb-0">Création d'un Github pour travailler en équipe.</p>
-                                <a href="https://github.com/ptitdim78/mdv2">
+                                <a target="_blank" href="https://github.com/ptitdim78/mdv2">
                                     <p class="mb-0 text-black-50">Ici.</p>
                                 </a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />

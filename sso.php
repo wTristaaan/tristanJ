@@ -8,7 +8,7 @@
                     <h1 id="sso" class="writeJ mx-auto my-0 text-uppercase"></h1>
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s" src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("PPE3");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>User Control.</h4>
                                 <p class="text-black-50 mb-0">Les users controls sont des objets du framework permettant de naviguer dans une application sans changer de fenêtre.</p>
-                                <a class="text-black-50 mb-0" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.windows.controls.usercontrol?view=windowsdesktop-6.0#:~:text=Un%20UserControl%20est%20un%20ContentControl,informations%2C%20consultez%20la%20classe%20ContentControl.">En savoir plus</a>
+                                <a target="_blank" class="text-black-50 mb-0" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.windows.controls.usercontrol?view=windowsdesktop-6.0#:~:text=Un%20UserControl%20est%20un%20ContentControl,informations%2C%20consultez%20la%20classe%20ContentControl.">En savoir plus</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -197,7 +197,7 @@ public partial class UserControlContainer : UserControl
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Fenêtres.</h4>
                                 <p class="text-black-50 mb-0">Pour naviguer dans l'application, nous avons aussi mis en place des fenêtres.</p>
-                                <a class="text-black-50 mb-0" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.windows.forms.form?view=windowsdesktop-6.0">En savoir plus.</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.windows.forms.form?view=windowsdesktop-6.0">En savoir plus.</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -322,7 +322,7 @@ public partial class FormChef : Form
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>LDAP.</h4>
                                 <p class="text-black-50 mb-0">L'entreprise exigeait une authentification par requête LDAP.</p>
-                                <a class="text-black-50 mb-0" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.directoryservices.protocols.ldapconnection?view=dotnet-plat-ext-6.0">En savoir plus</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.directoryservices.protocols.ldapconnection?view=dotnet-plat-ext-6.0">En savoir plus</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -419,7 +419,7 @@ connexion = ldap.AuthenticateUser(user, password);
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>MySQLConnector.</h4>
                                 <p class="text-black-50 mb-0">L'application est connectée avec une base de données !</p>
-                                <a class="text-black-50 mb-0" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.data.sqlclient.sqlconnection?view=dotnet-plat-ext-6.0">En savoir plus.</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="https://docs.microsoft.com/fr-fr/dotnet/api/system.data.sqlclient.sqlconnection?view=dotnet-plat-ext-6.0">En savoir plus.</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>

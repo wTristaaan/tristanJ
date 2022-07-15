@@ -8,7 +8,7 @@
                     <h1 id="PF" class="writeJ mx-auto my-0 text-uppercase"></h1>
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s" src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("PF");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4 class="text-black">Portfolio.</h4>
-                        <p class="mb-0 text-black-50">Ce site web développé avec le framework laravel m'a permis de me familiariser avec cet environnement.</p>
+                        <p class="mb-0 text-black-50">Ce site web développé avec le framework <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">laravel</a> m'a permis de me familiariser avec cet environnement.</p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ class="btn btn-primary" href="#aPropos">C'est parti
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Configuration vps.</h4>
                                 <p class="text-black-50 mb-0">Le site web doit être accessible en ligne c'est pourquoi j'ai opté pour un VPS.</p>
-                                <a class="text-black-50 mb-0" href="https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuell">En savoir plus</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuell">En savoir plus</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -264,7 +264,7 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Mise en production.</h4>
                                 <p class="text-black-50 mb-0">Le site est désormais accessible en ligne à l'adresse.</p>
-                                <a class="text-black-50 mb-0" href="http://lysun.fr/tristanJ">Lysun.fr.</a>
+                                <a class="text-black-50 mb-0" target="_blank" href="http://lysun.fr/tristanJ">Lysun.fr.</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -283,8 +283,8 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4></h4>
-                                <p class="text-black-50 mb-0">Création d'un Github pour travailler en équipe.</p>
-                                <a href="https://github.com/wTristaaan/tristanJ">
+                                <p class="text-black-50 mb-0">Le Github. Pour certaines raisons le framework a été supprimé.</p>
+                                <a target="_blank" href="https://github.com/wTristaaan/tristanJ">
                                     <p class="mb-0 text-black-50">Ici.</p>
                                 </a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />

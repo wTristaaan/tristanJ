@@ -104,6 +104,17 @@ window.addEventListener('DOMContentLoaded', event => {
     typewriter.typeString('Move a div !')
         .stop()
         .start();
+
+    var app = document.getElementById('xyz');
+
+    var typewriter = new Typewriter(app, {
+        strings: ["xyz"],
+        autoStart:true,
+        wrapperClassName: 'test',
+    });
+    typewriter.typeString('xyz')
+        .stop()
+        .start();
     
 
 

@@ -9,7 +9,7 @@
                     <img class="wow animate__animated animate__shakeY animate__infinite" data-wow-delay="9s"
                         src="./resources/assets/img/duck.png" alt="Duck" width="10%">
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Console.WriteLine("PPE2");</h2>
-                    <a class="btn btn-primary">C'est parti</a>
+                    <a class="btn btn-primary" href="#aPropos">C'est parti</a>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                         Tholdi est un site web de réservation de conteneur, on y retrouve la création d'un compte, d'une
                         session PHP,
                         la réservation d'un conteneur et la création d'un devis.
-                        <a target="_blank" href="http://149.202.49.224/Tholdi">Sur cette page</a>
+                        <a target="_blank" href="http://lysun.fr/Tholdi/">Sur cette page</a>
                         vous trouverez le site en ligne.
                     </p>
                 </div>
@@ -414,6 +414,9 @@ function creerReserver($codeReserve){
                         <p class="mb-0 text-black-50"></p>
                         <pre>
                            <code class="php">
+/**
+* Function faite par Yanis Oultaf.
+*/
 function tarificationDevis(){
     $pdo = gestionnaireDeConnexion();
     $annee = $_SESSION['panier'][0][0] ;
@@ -689,7 +692,7 @@ function supprimerReservation($codeReservation){
             </div>
             <div class="col-xl-12 col-lg-12">
                 <div class="featured-text text-center text-lg-left">
-                    <h4 class="text-black">Code PHP de la function de création d'un PDF grâce à FPDF.</h4>
+                    <h4 class="text-black">Code PHP de la function de création d'un PDF grâce à <a href="http://www.fpdf.org/" target="_blank" rel="noopener noreferrer">FPDF</a>.</h4>
                        <p class="mb-0 text-black-50"></p>
                     <pre>
                         <code class="php">
@@ -789,7 +792,7 @@ include_once('inc/init.php');
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4></h4>
                                 <p class="text-black-50 mb-0">Création d'un Github pour travailler en équipe.</p>
-                                <a href="https://github.com/wTristaaan/Tholdi"><p class="mb-0 text-black-50">Ici.</p></a>
+                                <a target="_blank" href="https://github.com/wTristaaan/Tholdi"><p class="mb-0 text-black-50">Ici.</p></a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
